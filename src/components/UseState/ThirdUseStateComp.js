@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 function ThirdUseStateComp() {
 
   const [name, setName] = useState({firstname: '', lastname: ''})
-console.log(name)
+
   return (
     <div>
       <form>
